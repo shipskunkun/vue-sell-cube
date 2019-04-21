@@ -1,5 +1,11 @@
 # vue-sell-cube
 
+## 项目笔记
+
+所有项目笔记收录在 articles 中
+
+
+
 ## Project setup
 ```
 npm install
