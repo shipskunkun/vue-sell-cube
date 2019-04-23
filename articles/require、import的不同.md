@@ -11,6 +11,7 @@ const ratings = appData.ratings
 ```
  也可以使用 import 引入，那么这两种引入方法有何区别呢？
  
+ [知乎参考回答](https://www.zhihu.com/question/56820346/answer/150724784)
  
  ## 知乎一下
  
@@ -25,6 +26,23 @@ const ratings = appData.ratings
  3. 写法不同  
  	前者写法就三个  
  	后者很多种  
+
+	``` js
+	const fs = require('fs')
+	exports.fs = fs
+	module.exports = fs而 import/export 的写法就多种多样：import fs from 'fs'
+	import {default as fs} from 'fs'
+	import * as fs from 'fs'
+	import {readFile} from 'fs'
+	import {readFile as read} from 'fs'
+	import fs, {readFile} from 'fs'
+	
+	export default fs
+	export const fs
+	export function readFile
+	export {readFile, read}
+	export * from 'fs'
+	```
 
  
  4. 绑定值

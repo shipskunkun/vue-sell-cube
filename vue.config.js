@@ -42,5 +42,14 @@ module.exports = {
         })
       });
     }
+  },
+  chainWebpack(config) {
+    config.resolve.alias
+      .set('components', resolve('src/components'))
+      .set('common', resolve('src/common'))
+      .set('model', resolve('src/model'))
+    config.plugin('context')
+      .use(webpack.ContextReplacementPlugin,
+        [/moment[\/\\]locale$/, /zh-cn/])
   }
 }
