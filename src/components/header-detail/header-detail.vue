@@ -53,12 +53,17 @@
             }
         },
         methods: {
+            //this.headerDetailComp.show()
+            //在生成实例的时候调用了
             show() {
                 this.visible = true
             },
             hide() {
                 this.visible = false
             }
+        },
+        mounted() {
+            // console.log('visible', this.visible);
         },
         components: {
             Star,

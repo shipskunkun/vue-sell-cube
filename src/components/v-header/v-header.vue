@@ -99,7 +99,8 @@
                         display:inline-block
                         width: 30px
                         height: 18px
-                        bg-image('brand')
+                        // bg-image('brand')
+                        background-image: url("brand@2x.png")
                         background-size:30px 18px
                         background-repeat: no-repeat
                     .name
@@ -148,7 +149,8 @@
                 margin-right: 4px
                 width: 22px
                 height: 12px
-                bg-image ('bulletin')
+                // bg-image ('bulletin')
+                background-image: url("bulletin@2x.png")
                 background-size: 22px 12px
                 background-repeat: no-repeat
             .bulletin-text
