@@ -97,7 +97,8 @@
             min-height: 100%
             .detail-main
                 margin-top: 64px
-                padding-bottom: 64px
+                // padding-bottom: 64px
+                margin-bottom: 64px
                 .name
                     line-height: 16px
                     text-align: center
