@@ -4,7 +4,7 @@
 
 所有项目笔记收录在 articles 中
 
-
+[Vue.js2.5+cube-ui重构饿了么App](https://coding.imooc.com/class/74.html)
 
 ## Project setup
 ```
