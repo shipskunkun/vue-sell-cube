@@ -30,6 +30,7 @@ module.exports = {
   },
   module: {
     rules: [
+      /*
       ...(config.dev.useEslint? [{
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
@@ -40,6 +41,7 @@ module.exports = {
           emitWarning: !config.dev.showEslintErrorsInOverlay
         }
       }] : []),
+      */
       {
         test: /\.vue$/,
         loader: 'vue-loader',
